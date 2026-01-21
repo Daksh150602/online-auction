@@ -11,7 +11,7 @@ def who_is_the_winner(bids):
         if bidding_amount>highest_bid:
             highest_bid=bidding_amount
             winner=bid
-    print(f"The winner is {winner} with a bid of ${highest_bid}")
+    print(f"The winner is {winner} with a bid of this many dollars ${highest_bid}")
 while not biding_finished:
     print("Welcome to the secret auction program.")
     name=input("what is your name ?: ")
