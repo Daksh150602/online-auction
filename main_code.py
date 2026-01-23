@@ -18,7 +18,7 @@ while not biding_finished:
     price=int(input("what is your bid ?: $"))
     bids[name]=price
 
-    more_entries=input("Are there any other bidders? Type 'yes 'or 'no'").lower()
+    more_entries=input("Are there any other bidders ? Type 'yes 'or 'no'").lower()
     if more_entries=="yes":
         print("\n"*20)
     elif more_entries=="no":
